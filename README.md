@@ -35,5 +35,3 @@ npm run build
 🖥 [NEXT.JS](https://nextjs.org/)
 🖼 SVG
 🖌 CSS
-
-#StartedaNewPathAsDeveloper ⌨️ with ❤️ for Angel Arrieta [@anuidev8](https://github.com/anuidev8)

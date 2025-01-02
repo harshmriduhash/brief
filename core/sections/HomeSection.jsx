@@ -14,7 +14,7 @@ const HomeSection = () => {
           <h1 className="main-title text-animation">HI, I AM Harsh</h1>
           <p className="dark-text main-paragraph text-animation p-relative">
             <span className="text-front p-absolute">
-              FRONTEND DEVELOPER AND I LIKE BUILD WebApps
+              SOFTWARE DEVELOPER AND I LIKE BUILD Scalable Products
             </span>
             <span className="text-back p-absolute">
               AND THIS IS MY HISTORY FOLLOW ME

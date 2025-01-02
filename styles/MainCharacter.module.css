@@ -1,0 +1,125 @@
+.character{
+    width: 720px;
+    position: absolute;
+    bottom: -2%;
+    left: -12%;
+    z-index: 1;
+}
+
+
+.web_city{
+    position: absolute;
+    top: 25%;
+}
+.laboratory_city{
+    position: absolute;
+    top: 22.1%;
+}
+
+.project_city{
+    position: absolute;
+    top: 17.5%;
+}
+.contact_city{
+    position: absolute;
+    top: 10%;
+}
+.bicy_character{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 410px;
+    z-index: 100;
+    
+}
+
+/* BICY_ANIMATION */
+.pedal_right{
+    transform-origin: 47% 86%;
+    animation: pd-right 2s infinite ;
+    
+}
+.lenght_right{
+    transform-origin: 45% 55%;
+    animation: lenght-right 2s alternate infinite;
+}
+.length_left_p{
+    transform-origin: 47% 86%;
+    animation: pd-left 2s infinite ;
+}
+.length_left{
+    transform-origin: 45% 55%;
+    animation: length-left 2s alternate infinite ;
+}
+@keyframes lenght-right {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(10deg);
+    }
+   
+}
+@keyframes pd-right {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+
+}
+@keyframes pd-left {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+}
+@keyframes length-left {
+    0%{
+        transform: translate(10px,0);
+    }
+    100%{
+        transform: translate(10px,-20px);
+    }
+   
+}
+
+.head{
+    transform-origin: 60% 16%;
+    animation: head 2s ease alternate infinite;
+}
+@keyframes head {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(7deg)
+    }
+   
+}
+
+.arm_right{
+    transform-origin: 60% 16%;
+    animation: arm_right 2s ease alternate infinite;
+}
+@keyframes arm_right {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(2deg);
+    }
+}
+@media (min-width:1500px) {
+    .character{
+        width: 880px;
+        bottom: -2%;
+        
+       
+    }
+}
+
